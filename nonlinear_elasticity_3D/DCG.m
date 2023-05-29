@@ -1,5 +1,5 @@
 function [ x,iter,resvec,tag] = DCG( A,b,x0,W,M,tol,maxiter)
-%DPCG Summary of this function goes here
+%   DPCG Summary of this function goes here
 %   Detailed explanation goes her
 
 if isempty(W)
